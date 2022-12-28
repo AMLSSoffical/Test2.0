@@ -1,9 +1,5 @@
-
--- Import libraries
 local GUI = require("GUI")
 local system = require("System")
-
----------------------------------------------------------------------------------
 
 -- Add a new window to MineOS workspace
 local workspace, window, menu = system.addWindow(GUI.filledWindow(1, 1, 60, 20, 0xE1E1E1))
